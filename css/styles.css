@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: rgb(240, 239, 239);
+    padding: 42px 0;
+    max-width: 98%;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading-caption {
+    font-size: 1rem;
+    margin: 16px 15px;
+}
+
+#title {
+    margin: 0px 15px;
+    font-size: 40px;
+}
+
+#img-div {
+    background-color: #fff;
+    margin: 16px 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#image {
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    font-size: 1rem;
+    margin: 0 10px 0 10px;
+}
+
+.tribute-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 50px auto;
+}
+
+.tribute {
+    margin: 0 15px;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.tribute li {
+    margin: 0 auto 16px auto;
+}
+
+.quote {
+    margin: 50px auto;
+}
+
+#tribute-link {
+    text-align: center;
+    margin: 0 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .tribute {
+        width: 50%;
+        margin: auto;
+    }
+}
